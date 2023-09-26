@@ -1,0 +1,15 @@
+In the vehicle ID:2
+The passenger ID:19 had an illegal suitcase.
+In the vehicle ID:2
+The passenger ID:24 had an illegal suitcase.
+In the vehicle ID:2
+The passenger ID:29 had an illegal suitcase.
+In the vehicle ID:2
+The passenger ID:31 had an illegal suitcase.
+The vehicle ID:7 was overloaded.
+The passenger ID:67 was in the vehicle ID:7
+The vehicle ID:6 was overloaded.
+The passenger ID:65 was in the vehicle ID:6
+The passenger ID:66 was in the vehicle ID:6
+In the vehicle ID:3
+The passenger ID:42 had an illegal suitcase.

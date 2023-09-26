@@ -1,0 +1,13 @@
+1-terminal running
+0-terminal standing-by
+
+POLICE
+
+truck ID:1 = 1
+car/bus right ID:2 = 1
+car/bus left ID:3 = 1
+
+CUSTOMS
+
+truck ID:4 = 1
+car/bus ID:5 = 1

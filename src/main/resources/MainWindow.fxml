@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="639.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane fx:id="vehicleGrid" gridLinesVisible="true" layoutX="378.0" layoutY="374.0" prefHeight="241.0" prefWidth="62.0" AnchorPane.bottomAnchor="23.400000000000006" AnchorPane.leftAnchor="378.0" AnchorPane.rightAnchor="377.6" AnchorPane.topAnchor="374.0">
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Pane fx:id="truckPolice" layoutX="538.0" layoutY="239.0" prefHeight="54.0" prefWidth="80.0" />
+      <Pane fx:id="carPoliceLeft" layoutX="108.0" layoutY="239.0" prefHeight="54.0" prefWidth="80.0" />
+      <Pane fx:id="carPoliceRight" layoutX="289.0" layoutY="239.0" prefHeight="54.0" prefWidth="80.0" />
+      <Pane fx:id="carCustoms" layoutX="148.0" layoutY="57.0" prefHeight="54.0" prefWidth="80.0" />
+      <Pane fx:id="truckCustoms" layoutX="538.0" layoutY="57.0" prefHeight="54.0" prefWidth="80.0" />
+      <Pane fx:id="buscarP1" layoutX="123.0" layoutY="296.0" prefHeight="48.0" prefWidth="49.0" />
+      <Pane fx:id="buscarP2" layoutX="304.0" layoutY="296.0" prefHeight="48.0" prefWidth="49.0" />
+      <Pane fx:id="buscarC" layoutX="163.0" layoutY="111.0" prefHeight="48.0" prefWidth="49.0" />
+      <Pane fx:id="truckP" layoutX="553.0" layoutY="296.0" prefHeight="48.0" prefWidth="49.0" />
+      <Pane fx:id="truckC" layoutX="553.0" layoutY="111.0" prefHeight="48.0" prefWidth="49.0" />
+      <Label layoutX="341.0" layoutY="14.0" prefHeight="26.0" prefWidth="50.0" text="Time: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="398.0" layoutY="17.0" prefHeight="18.0" prefWidth="62.0" text="0s">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnStart" layoutX="523.0" layoutY="384.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Start" />
+      <Button fx:id="btnPause" layoutX="523.0" layoutY="450.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Pause or Continue" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="btnVehicles" layoutX="523.0" layoutY="511.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="All Vehicles" />
+      <Button fx:id="btnIncident" layoutX="523.0" layoutY="574.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Incidents" />
+      <TextField fx:id="txtId" alignment="CENTER" layoutX="692.0" layoutY="458.0" prefHeight="26.0" prefWidth="69.0" />
+      <Label layoutX="662.0" layoutY="431.0" prefHeight="18.0" prefWidth="130.0" text="Insert ID of the vehicle:" />
+      <Label layoutX="107.0" layoutY="354.0" text="Police Terminals:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="501.0" text="Customs Terminals:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="396.0" text="Car/Bus Left:" />
+      <Label layoutX="14.0" layoutY="417.0" text="Car/Bus Right:" />
+      <Label layoutX="14.0" layoutY="440.0" prefHeight="18.0" prefWidth="67.0" text="Truck:" />
+      <Label layoutX="14.0" layoutY="544.0" text="Car/Bus:" />
+      <Label layoutX="14.0" layoutY="565.0" prefHeight="18.0" prefWidth="67.0" text="Truck:" />
+      <Label fx:id="lblCarBusLeft" layoutX="94.0" layoutY="396.0" prefHeight="18.0" prefWidth="266.0" />
+      <Label fx:id="lblCarBusRight" layoutX="95.0" layoutY="417.0" prefHeight="18.0" prefWidth="266.0" />
+      <Label fx:id="lblTruckPolice" layoutX="95.0" layoutY="441.0" prefHeight="18.0" prefWidth="266.0" />
+      <Label fx:id="lblCarBusCustoms" layoutX="95.0" layoutY="543.0" prefHeight="18.0" prefWidth="266.0" />
+      <Label fx:id="lblTruckCustoms" layoutX="95.0" layoutY="565.0" prefHeight="18.0" prefWidth="266.0" />
+      <Button fx:id="btnSearch" layoutX="697.0" layoutY="488.0" mnemonicParsing="false" text="Get Info" />
+      <Label fx:id="lblImportant" layoutX="460.0" layoutY="332.0" prefHeight="42.0" prefWidth="344.0" wrapText="true" />
+   </children>
+</AnchorPane>
